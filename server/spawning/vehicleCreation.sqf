@@ -49,7 +49,7 @@ _vehicle setVelocity [0,0,0.01];
 
 //Set Vehicle Attributes
 _vehicle setFuel (random 0.5 + 0.25);
-_vehicle setDamage (random 0.5);
+_vehicle setDamage 0;
 
 // Remove wheel damage
 {
